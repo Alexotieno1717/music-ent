@@ -168,9 +168,35 @@ body{
     background-color: orangered;
     height: 2px;
 }
-
-
 /* End Tour */
+
+
+/* featured-heading */
+.featured-heading{
+    text-align: center;
+    font-size: 36px;
+}
+.featured-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.featured-music{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    width: 400px;
+    color: orangered;
+}
+.featured-audio{
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
 
 
 
