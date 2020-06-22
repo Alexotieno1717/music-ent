@@ -81,13 +81,22 @@ body{
 
 /* End Banner */
 
+/* .tour-content{
+    display: flex;
+}
+.tour-content{
+    display: flex;
+    width: 100%;
+} */
 .background_image{
     background-image:url(../images/extra_1.jpg);
     background-position: left;
     width: 350px;
     height: 450px;
     margin-top: 5%;
-    margin-left: 20px;
+    margin-left: 8%;
+    margin-right: 20px;
+    float: left;
     
 }
 .extra_frame{
@@ -99,7 +108,7 @@ body{
 }
 .extra-frame-2{
     border: 2px solid orangered;
-    width: 90%;
+    width: 97%;
     height: 95%;
     padding: 10px;
     margin-top: 20px;
@@ -117,7 +126,7 @@ body{
     text-align: center;
 }
 .extra_title{
-    font-size: 65px;
+    font-size: 60px;
 	font-weight: 700;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -133,6 +142,34 @@ body{
     text-transform: uppercase;
     text-align: center;
 }
+.tour-heading{
+    padding-top: 5%;
+    font-size: 36px;
+}
+.tour_info{
+    padding-left: 20px;
+    margin-bottom: 7px;
+}
+.tour-cont{
+    padding-top: 1%;
+    display: flex;
+}
+.tour_button{
+    margin-left: 50%;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    width: 20%;
+    text-align: center;
+}
+         
+.hr-tour{
+    background-color: orangered;
+    height: 2px;
+}
+
+
 /* End Tour */
 
 
