@@ -207,6 +207,22 @@ body{
 }
 /* End latest image */
 
+.latest-contact{
+    text-align: center;
+    font-size: 36px;
+}
+.contact-info{
+    text-align: center;
+}
+#contact-background{
+    background-image: url(../images/contact.jpg);
+    background-position: center;
+    height: 300px;
+    padding: 20px;
+    color: white;
+}
+/* End Contacts */
+
 footer{
     background: #00316b;
     height: 150px;
